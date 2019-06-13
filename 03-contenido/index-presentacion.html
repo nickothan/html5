@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contenido</title>
+</head>
+<body>
+    <article>
+        <section>
+            <!-- Listas anidadas -->
+            <ul>
+                <li>Item de lista 1</li>
+                <li>Item de lista 2
+                    <ol>
+                        <li>Subitem de lista 1</li>
+                        <li>Subitem de lista 2</li>
+                    </ol>
+                </li>
+                <li>Item de lista 3</li>
+            </ul>
+            <!--  Listas de definicion-->
+                <dl><!--definition List-->
+                    <dt>Perú</dt><!--Definition term-->
+                    <dd>Lima</dd><!--Definition Description-->
+                    <dt>Colombia</dt>
+                    <dd>Bogotá</dd>
+                    <dt>Bolivia</dt>
+                    <dd>La paz</dd>
+                </dl>
+        </section>
+        <section>
+            <!-- El figure es contenido del article que rompe un flijo en el cod como lo pueden ser:
+                    - Imagenes
+                    -Videos
+                    -Citas textuales, entre otras
+                    -codigo-->
+            <figure>
+                <pre>
+                    <code>
+                        function hola(){
+                            return "hola"
+                        }
+                    </code>
+                </pre>
+                <!-- Fig caption es la leyenda, descripcion, titulo o explicación del contenido del figure-->
+                <figcaption>
+                    Declaracion de la finción javaScript
+                </figcaption>
+            </figure>
+        </section>
+    </article>
+    <main><!-- Es donde estructuramos el contenido de la pagina-->
+        <p>Este es un parrafo, es decir un bloque de texto</p>
+        <hr><!-- rompe la secuencia de la presentación, ej: se cuenta una historia, hr y despues una conclución-->
+        <pre>
+            Este texto
+                    Se presentara igual 
+        en el navegador
+        </pre>
+        <blockquote>
+            Use blockquote para destacar citas.
+        </blockquote>
+    </main>
+    <div class="user"> <!-- Usamos div para usarlo como contenedor de algo; Siemprebuscar una opcion que cumpla mejor con el contenido-->
+        <div class="user_name">
+            <p>Sergio</p>
+        </div>
+        <div class="user_image">
+            <img src="" alt="">
+        </div>
+    </div>
+</body>
+</html>
